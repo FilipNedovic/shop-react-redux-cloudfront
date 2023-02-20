@@ -69,3 +69,10 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 ### `serverless:remove`
 
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
+
+## Available links
+
+Available links to visit hosted application on AWS.
+
+- [S3](http://shop-react-redux-cloudfront91.s3-website-us-east-1.amazonaws.com/) build files are on S3, access allowed only trough the CloudFront distribution.
+- [CloudFront distribution](https://d3fnxdikaqjnst.cloudfront.net/) serves the website.
